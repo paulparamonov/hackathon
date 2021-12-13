@@ -1,0 +1,41 @@
+.menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 44px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.2s;
+    
+}
+.menu.active {
+    transform: translateX(0);
+}
+
+.menu-content {
+    width: 10%;
+    height: 100%;
+    background-color: #4a4a4a;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.navbar-burger {
+    text-align: center;
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+.menu-content .navbar-burger a {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    /* margin: 10px 0; */
+}
+.menu-content .navbar-burger a:hover {
+    color: violet;
+}
+

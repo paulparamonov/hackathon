@@ -1,0 +1,21 @@
+{
+  "products": [
+    {
+      "brand": "Apple",
+      "model": "air",
+      "description": "dasfgsGDHFDSSHDFS",
+      "price": 222,
+      "image1": "1",
+      "image2": "1",
+      "video": "1",
+      "id": 1
+    }
+  ],
+  "brands": [
+    {
+      "brand": "Apple",
+      "logo": "macbook",
+      "id": 1
+    }
+  ]
+}
